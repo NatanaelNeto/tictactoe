@@ -1,2 +1,3 @@
-# tictactoe
-Tic tac toe with simple AI oponent, playable for 2 players.
+# Tic Tac Toe!
+
+Tic tac toe project with simple AI opponent, playable for 2 players
