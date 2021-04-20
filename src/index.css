@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* -------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans:wght@300;600&display=swap');
+
+* {
+  transition: all 0.15s ease;
+}
+
+body {
+  background: linear-gradient(135deg, rgba(255,119,255,1) 0%, rgba(85,85,204,1) 100%);
+  color: #FFC6FF;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
+
+/*---HEADER---*/
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.header_logo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  font-family: 'Caveat', cursive;
+}
+
+.header_logo img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.header_menu {
+  color: #FFC6FF;
+  position: relative;
+}
+
+.header_menu .header_menu-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+
+.header_menu-button:hover {
+  color: #3C0046;
+}
+
+.header_nav {
+  position: absolute;
+  right: 0;
+  top: 75px;
+}
+
+.header_nav-list {
+  list-style: none;
+  width: 200px;
+  text-align: center;
+  padding: 0;
+}
+
+.header_nav-element {
+  padding: 5px 15px;
+  margin: 10px 0;
+  color: #FFC6FF;
+}
+
+.header_nav-element:hover {
+  background-color: #FFC6FF;
+  color: #3C0046;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header_nav--disable {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotateX(-90deg);
+}
